@@ -5,6 +5,10 @@ import javax.swing.UIManager;
 
 import darksidegames.constructel.ui.MainWindow;
 
+/**
+ * La classe principale de l'application.
+ * @author Winterskill
+ */
 public class Main {
 	public static void main(String[] args) {
 		try {
