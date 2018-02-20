@@ -3,6 +3,8 @@ package darksidegames.constructel;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
+import darksidegames.constructel.ui.MainWindow;
+
 public class Main {
 	public static void main(String[] args) {
 		try {
@@ -11,5 +13,7 @@ public class Main {
 			System.out.println("ERROR! COULD NOT LOAD SYSTEM LOOK AND FEEL!");
 			JOptionPane.showMessageDialog(null, "COULD NOT LOAD SYSTEM LOOK AND FEEL!", "ERROR", JOptionPane.ERROR_MESSAGE);
 		}
+		
+		MainWindow mainWindow = new MainWindow();
 	}
 }
